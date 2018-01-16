@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: url(/img/Teddy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+header img{
+    width: 15vw;
+    height: 15vw;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding-left: 3vw;
+}
+.title{
+    align-self: center;
+}
+.images img{
+    padding-top:1vw;
+    width: 15vw;
+    height: auto;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.hours{
+    padding-right:1vw;
+    margin: 0;
+    font-size: 4vw;
+}
+.hours ol{
+    list-style-type: none;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer img{
+    padding:1vw;
+    width: 45vw;
+    height: 45vw;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
